@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/ic_login"
+    android:padding="16dp">
+
+    <!-- Author Input Field -->
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:text="X" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom = "10dp"
+        android:layout_marginTop = "10dp"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="50dp">
+
+        <CheckBox
+            android:id="@+id/easyCheckBox"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:text="Beginner"  android:layout_width="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/mediumCheckBox"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Intermediate"
+            android:buttonTint="@color/white"
+            android:layout_width="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/hardCheckBox"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Advanced"
+            android:buttonTint="@color/white"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+
+    <!-- Type Checkbox -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom = "10dp"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/parkCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:text="Park" />
+
+        <CheckBox
+            android:id="@+id/gymCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:text="Gym" />
+
+        <CheckBox
+            android:id="@+id/sportCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:buttonTint="@color/white"
+            android:text="Sport's Club" />
+    </LinearLayout>
+    </LinearLayout>
+
+    <!-- Date Range Calendar -->
+
+    <EditText
+        android:id="@+id/authorEditText"
+        android:layout_width="match_parent"
+        android:layout_marginBottom = "10dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Author" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom = "10dp"
+        android:gravity = "center"
+        android:orientation="horizontal">
+
+        <DatePicker
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom = "10dp"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/filterButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="Apply" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

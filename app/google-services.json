@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "476473617544",
+    "project_id": "fitness-9b198",
+    "storage_bucket": "fitness-9b198.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476473617544:android:f1a40d0bb24cb08769833d",
+        "android_client_info": {
+          "package_name": "com.koki.fitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTSymoAe5uOF2ReQ7bE0BbX1IlH68K3h8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
